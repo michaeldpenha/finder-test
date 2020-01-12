@@ -1,0 +1,6 @@
+.search-wrapper input{
+    width: -webkit-fill-available;
+    padding: 15px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}

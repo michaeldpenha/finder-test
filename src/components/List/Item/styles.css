@@ -1,0 +1,31 @@
+.card-wrapper{
+    padding: 10px;
+    border: 1px solid #999;
+    margin-top: 15px;
+}
+
+.card-item-wrapper{
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-item-wrapper .card-image{
+    height: 150px;
+    border-radius: 50%;
+}
+
+.card-item-wrapper .card-content-rapper{
+    flex: 1;
+    margin: 20px 0 0 10px;
+}
+
+.card-item-wrapper .card-content-rapper .card-title{
+    font-size: 18px;
+    font-weight: 500;
+    word-break: break-word;
+}
+
+.card-item-wrapper .card-content-rapper .card-description {
+    word-break: break-word;
+}

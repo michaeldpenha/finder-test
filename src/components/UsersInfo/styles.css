@@ -1,0 +1,40 @@
+.user-info-wrapper{
+    display: flex;
+    border: 1px solid #999;
+    background: #ffffff;
+}
+
+.user-info-wrapper .user-avatar-wrapper > img{
+    height: 200px;
+}
+
+.user-info-wrapper .user-avatar-wrapper .visit-button{
+    border: 1px solid #999;
+    background: #333;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.user-info-wrapper .user-avatar-wrapper .visit-button > a {
+    color: #fff;
+}
+
+.user-info-wrapper .user-content-wrapper{
+    flex: 1;
+}
+
+.user-info-wrapper .user-content-wrapper .user-content{
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    display: flex;
+}
+
+.user-info-wrapper .user-content-wrapper .user-content .user-content-label {
+    font-weight: 500;
+    flex: 0.25;
+}
+
+.user-info-wrapper .user-content-wrapper .user-content .user-content-value {
+    flex: 1;   
+}
